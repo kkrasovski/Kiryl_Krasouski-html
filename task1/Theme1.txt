@@ -1,0 +1,45 @@
+﻿Тема 1 - основы
+HTML и основные понятия
+основы:
+https://html5book.ru/osnovy-html/
+элементы:
+https://html5book.ru/html-tags/
+текст:
+https://html5book.ru/html-text/
+атрибуты:
+https://html5book.ru/html-attributes/
+img:
+https://html5book.ru/images-in-html/
+семантические элементы:
+https://html5book.ru/html5-semantic-elements/
+Гиперссылки
+https://html5book.ru/hyperlinks-in-html/
+Каскадные таблицы стилей: основные свойства
+https://html5book.ru/osnovy-css/
+https://html5book.ru/block-inline-elements/
+https://html5book.ru/css-text/
+Шрифты
+https://html5book.ru/web-topography/
+https://html5book.ru/css-shrifty/
+https://html5book.ru/css-background/
+https://html5book.ru/css3-text/
+Основы git
+основы:
+https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git
+git: https://git-scm.com/
+source tree: https://www.sourcetreeapp.com/
+tortoisegit: https://tortoisegit.org/
+gitkraken: https://www.gitkraken.com/
+Д/з
+Создать репозиторий на github.com
+Имя проекта name_surname-html. Пример: artsiom_marozau-html
+Задание в папке task1
+файл index.html
+содержимое: lorem upson около 10 абзацев,
+сделать меню с гиперссылками и якорями, подключить один внешний шрифт https://fonts.google.com/ для меню,
+использовать разные семантические элементы,
+по желанию сделать 2-3 колонки,
+попробовать разные цвета и свойства CSS,
+добавить как минимум 1 img,
+добавить background img c repeat,
+добавить выравнивание текста по центру/правому краю.
