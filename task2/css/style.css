@@ -1,22 +1,26 @@
 body {
     background: #0089b3;
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+
+/***Block with form***/
+
 .container {
-   display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height:100%;
+    height: 100%;
 }
 
 .form-wrap {
-    width:450px;
+    width: 450px;
     height: 445px;
     background: #fff;
-    box-shadow: 0 0 68px rgba(0,0,0,0.25);
+    box-shadow: 0 0 68px rgba(0, 0, 0, 0.25);
     padding: 20px;
-    box-sizing:border-box;
-     font-size: 14px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
 h1 {
@@ -24,82 +28,237 @@ h1 {
     display: inline-block;
 }
 
+h2 {
+    margin: 18px 0 4px;
+    font-size: 14px;
+}
+
 .form-wrap span {
     padding: 2px;
     background: #ededed;
     margin: 0 5px;
-    font-weight: 600;    
-}
-
-.form-wrap p {  
-}
-input {
-  border: 1px solid #ededed;
-  outline: none;
-    width: 89%;
-}
-
-label {
-    display: block;
-    margin: 25px 0 5px;
     font-weight: 600;
 }
 
-label>input {
-  
-  margin: 5px 0 0;
-  width: 100%;
-  padding: 2px;
+
+/***Inputs and checkboxes***/
+
+input {
+    border: 1px solid #ededed;
+    outline: none;
+    padding-left: 5px;
 }
 
-label.checked input {
+label {
     display: inline-block;
-    width: auto;
-    margin: 5px 5px 0 0;
-    font-weight: 400;
-    
+    margin: 5px;
 }
 
-.checked {
-    font-weight: 400;
+
+/***Radio button***/
+
+.choice {
+    display: block;
+    height: 28px;
 }
-button {
+
+.choice input[type="text"] {
+    position: absolute;
+    left: 25px;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    outline: none;
+    display: none;
+    position: absolute;
+    top: -9999px;
+}
+
+.choice label {
+    margin-left: 5px;
+}
+
+.choice label::before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 0px gray inset;
+}
+
+.choice label::after {
+    content: "";
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: #0184bf;
+}
+
+.choice label {
+    position: relative;
+}
+
+.choice label::before,
+.choice label::after {
+    position: absolute;
+}
+
+.choice label::before {
+    top: 0;
+}
+
+.choice label::after {
+    left: 5px;
+    top: 5px;
+}
+
+.choice input[type="radio"] + label::after {
+    content: none;
+}
+
+.choice input[type="radio"]:checked + label::after {
+    content: "";
+}
+
+
+/***Bottom Checkbox***/
+
+.checkbox_wrap {
+    display: inline-block;
+}
+
+.wrapin {
+    margin-left: 25px;
+}
+
+.checkbox label {
+    position: relative;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+}
+
+.checkbox label::before {
+    top: 0;
+}
+
+.checkbox label::after {
+    left: 4px;
+    top: 3px;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 1px 0px gray inset;
+}
+
+.checkbox label::after {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 9px;
+    border-left: 2px solid #0184bf;
+    border-bottom: 2px solid #0184bf;
+    transform: rotate(-45deg);
+}
+
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    opacity: 0;
+    position: absolute;
+    top: -9999px;
+}
+
+
+/***Button***/
+
+.button button {
     background: #0184bf;
     color: #fff;
     border-radius: 5px;
     border: 0;
     padding: 5px 10px;
-    box-shadow: 0 2px  1px #005b84;
+    box-shadow: 0 2px 1px #005b84;
 }
 
-button:hover {
+.button button:hover {
     background: #0494d5;
-
-}
-
-input[type="radio"] {
-     width: auto;
-    margin: 5px;
 }
 
 
-.choice a {
-    margin: 5px;
-    font-weight: 800;
-   background: none;
-    text-decoration: none;
-    font-size: 16px;
-    
+/***Reset Button***/
+
+.resetbutton {
+    position: relative;
+    left: 330px;
+    top: 7px;
 }
 
-.choicehide {display:none;}
+input[type="reset"] {
+    background: url('../img/x.jpg') no-repeat top;
+    background-size: 10px;
+    width: 14px;
+    height: 14px;
+    border: 0;
+    font-size: 0;
+}
+
+.choice input[type="text"] {
+    width: 300px;
+}
+
+.choicecontainer {
+    outline: none;
+    padding: 5px 0 11px;
+    width: 90%;
+    box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.choiceoutline {
+    border: 1px solid #ededed;
+    width: 100%;
+    overflow: hidden;
+}
+
+.checkbox,
+.button {
+    margin-top: 15px;
+}
+
+.action {
+    width: 410px;
+}
+
 
 /* Что бы не исчезали стрелочки вверх и вниз*/
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button {  
-   opacity: 1;
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
 }
-input[type=number]::-ms-inner-spin-button, 
-input[type=number]::-ms-outer-spin-button {  
-   opacity: 1;
+
+input[type=number]::-ms-inner-spin-button,
+input[type=number]::-ms-outer-spin-button {
+    opacity: 1;
 }

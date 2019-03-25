@@ -1,38 +1,53 @@
 <html>
-    <head>
-        <title>Домшнее задание Epam - №2 Форма</title>
-        <meta name="description" content="Домашнее задание с формой">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
-          
-          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <title>Домшнее задание Epam - №2 Форма</title>
+    <meta name="description" content="Домашнее задание с формой">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
     <div class="container">
-    <div class="form-wrap">
-    <h1>Form Action</h1> <span>_mc4wp_action</span>
-    <p>This field will allow your visitors to choose whether they would like to subscribe or unsubscribe</p>
-    <form action="send.php">
-         <label>Field Label<input type="text" required placeholder="Form Action"></label>
-         <label>Choices type<input type="number" required placeholder="Radio Buttons"></label>
-         <label >Choices
-         <div class="choice">
-         <input type="radio" name="wrap" value="wrap-yes" id="reset1"><input type="text" required placeholder="Subscribe">
-         <a href="#"  onclick="document.getElementById('reset1').checked = false">x</a>
-         </div>
-         <div class="choice">
-         <input type="radio" name="wrap" value="wrap-yes" id="reset2" ><input type="text" required placeholder="Unsubscribe">
-         <a href="#"  onclick="document.getElementById('reset2').checked = false">x</a>
-          </div>
-      
-         </label>           
-         <label class="checked"><input type="checkbox" name="wrap" value="wrap-yes">Wrap in paragraph tags?</label>
-         <label>
-         <button type="submit">Add to form</button> 
-         </label>
-    </form>
-    </div>  
+        <div class="form-wrap">
+            <h1>Form Action</h1> <span>_mc4wp_action</span>
+            <p>This field will allow your visitors to choose whether they would like to subscribe or unsubscribe</p>
+            <form action="send.php">
+                <h2>Field Label</h2>
+                <input type="text" required placeholder="Form Action" class="action">
+                <h2>Choices type</h2>
+                <input type="number" required placeholder="Radio Buttons">
+                <h2>Choices</h2>
+                <div class="choiceoutline">
+                    <div class="choicecontainer">
+                        <div class="choice">
+                            <input type="radio" id="firstradio" name="Subscribe-UnSubscribe">
+                            <label for="firstradio">
+                                <input type="text" required placeholder="Subscribe">
+                            </label>
+                            <input type="reset" name="UnSubscribe" class="resetbutton" title="Background Image">
+                        </div>
+                        <div class="choice">
+                            <input type="radio" id="secondradio" name="Subscribe-UnSubscribe">
+                            <label for="secondradio">
+                                <input type="text" required placeholder="Unsubscribe">
+                            </label>
+                            <input type="reset" name="UnSubscribe" class="resetbutton">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox_wrap">
+                    <label for="checkbox_wrap" class="checkbox_wrap">
+                        <div class="wrapin">Wrap in paragraph tags?</div>
+                    </label>
+                </div>
+                <label class="button">
+                    <button type="submit">Add to form</button>
+                </label>
+            </form>
+        </div>
     </div>
-    </body>
+</body>
 </html>
