@@ -1,0 +1,105 @@
+body {
+    background: #0089b3;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    }
+.rotator {
+    overflow: hidden;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+}
+
+.grid {
+    display: flex;   
+    flex-wrap:wrap;    
+    width: 1056px;       
+    margin-top: -70px;
+    margin-left: 10px;
+    display: -webkit-flex;
+    flex-wrap:-webkit-wrap;
+    background: #ffffff;
+    overflow: hidden;
+      transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-webkit-transform: rotate(-7deg);
+}
+.container a {
+    background-image: url(../img/icons.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    height: 32px;       
+    box-sizing:border-box;
+    margin: 8px;
+    transition: all 0.2s ease-out;	
+}
+.container a:hover {
+    background-position-y: bottom;
+}
+
+.youtube{
+    background-position: -320px center;
+}
+.vimeo{
+    background-position: -288px center;
+}
+.twitter{
+    background-position: -256px center;
+}
+.skype{
+    background-position: -224px center;
+}
+.rss{
+    background-position: -192px center;
+}
+.pinterest{
+    background-position: -160px center;
+}
+.in{
+    background-position: -128px center;
+}
+.gplus{
+    background-position: -96px center;
+}
+.world{
+    background-position: -64px center;
+}
+.point{
+    background-position: -32px center;
+}
+.facebook{
+    background-position: left center;
+}
+
+.ten{
+   top:  -20px;
+}
+.eleven{
+   top:  -40px;
+}
+.one{
+   top:  -50px;
+}
+.two{
+   top:  -70px;
+}
+h1{
+    font-size: 72px;
+    color:#ffffff;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+    
+}
+p {
+    color: #ffffff;
+}

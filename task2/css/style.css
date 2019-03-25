@@ -1,0 +1,105 @@
+body {
+    background: #0089b3;
+    font-family: 'Source Sans Pro', sans-serif;   
+}
+.container {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+.form-wrap {
+    width:450px;
+    height: 445px;
+    background: #fff;
+    box-shadow: 0 0 68px rgba(0,0,0,0.25);
+    padding: 20px;
+    box-sizing:border-box;
+     font-size: 14px;
+}
+
+h1 {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.form-wrap span {
+    padding: 2px;
+    background: #ededed;
+    margin: 0 5px;
+    font-weight: 600;    
+}
+
+.form-wrap p {  
+}
+input {
+  border: 1px solid #ededed;
+  outline: none;
+    width: 89%;
+}
+
+label {
+    display: block;
+    margin: 25px 0 5px;
+    font-weight: 600;
+}
+
+label>input {
+  
+  margin: 5px 0 0;
+  width: 100%;
+  padding: 2px;
+}
+
+label.checked input {
+    display: inline-block;
+    width: auto;
+    margin: 5px 5px 0 0;
+    font-weight: 400;
+    
+}
+
+.checked {
+    font-weight: 400;
+}
+button {
+    background: #0184bf;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px;
+    box-shadow: 0 2px  1px #005b84;
+}
+
+button:hover {
+    background: #0494d5;
+
+}
+
+input[type="radio"] {
+     width: auto;
+    margin: 5px;
+}
+
+
+.choice a {
+    margin: 5px;
+    font-weight: 800;
+   background: none;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.choicehide {display:none;}
+
+/* Что бы не исчезали стрелочки вверх и вниз*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+input[type=number]::-ms-inner-spin-button, 
+input[type=number]::-ms-outer-spin-button {  
+   opacity: 1;
+}
