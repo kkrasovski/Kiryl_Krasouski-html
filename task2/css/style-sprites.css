@@ -11,10 +11,23 @@ body {
     height:100%;
     }
 .rotator {
-    overflow: hidden;
+    position: relative;
     height: 200px;
     background: #ffffff;
+    overflow: hidden;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+    z-index: 1;
+}
+.layer {
+    position: absolute;
+    left: calc(50% - 185px);
+    top: calc(50% - 24px);
+    width: 350px;      
+    border: 1px solid #eee;
+    z-index: 2;
+    background: #ffffff;
+    text-align: center;
+  
 }
 
 .grid {
