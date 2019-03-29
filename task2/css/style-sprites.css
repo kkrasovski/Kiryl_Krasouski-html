@@ -29,8 +29,8 @@ body {
     width: 260px;
     text-align: center;
     border: 2px solid #6a6b6d;
+    outline: 4px solid #fff;
     background: #ffffff;
-
 }
 
 .blocktitle {
@@ -151,7 +151,7 @@ body {
     border: solid 1px #9e9e9e;
     font-size: 14px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
-    }
+}
 
 .white {
     background: #ffffff;
@@ -182,7 +182,7 @@ body {
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     font-weight: bold; 
-    }
+}
 
 .pink {    
     background: linear-gradient(#e63a9c, #ea228d);

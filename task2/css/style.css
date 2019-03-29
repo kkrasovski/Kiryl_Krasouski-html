@@ -24,7 +24,6 @@ body {
     box-shadow: 0 0 68px rgba(0, 0, 0, 0.25);
     background: #fff;
     font-size: 14px;
-
 }
 
 .formtitle {
@@ -45,7 +44,6 @@ body {
 }
 
 /*Inputs and checkboxes*/
-
 
 .labels {
     display: inline-block;
@@ -135,14 +133,13 @@ body {
 
 .checkbox_wraper {
     display: inline-block;
-    margin: 5px;
+    margin: 5px 0;
     position: relative;
 }
 
 .wrapin {
     margin-left: 25px;
 }
-
 
 .checkbox_wraper::before,
 .checkbox_wraper::after {
