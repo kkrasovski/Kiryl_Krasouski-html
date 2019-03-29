@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Домшнее задание Epam - №2 Форма</title>
+    <meta name="description" content="Домашнее задание с формой">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrap">
+            <h1 class="formtitle">Form Action</h1> <span class="mc4wp">_mc4wp_action</span>
+            <p>This field will allow your visitors to choose whether they would like to subscribe or unsubscribe</p>
+            <form action="send.php">
+                <h2 class="hlabel">Field Label</h2>
+                <input type="text" required placeholder="Form Action" value="Form Action" class="action inputheight focused">
+                <h2 class="hlabel">Choices type</h2>
+                <select size="2" class="selectypebutton focused">
+                   <option class="default-option">Radio buttons</option>
+                    <option class="variety">Type 1</option>
+                    <option class="variety">Type 2</option>
+                    <option class="variety">Type 3</option>
+                    <option class="variety">Type 4</option>
+                </select>
+                        <h2 class="hlabel">Choices</h2>
+                        <div class="choiceoutline">
+                            <div class="choicecontainer">
+                                <div class="choice">
+                                    <input type="radio" id="firstradio" name="Subscribe-UnSubscribe" class="choiceinput">
+                                    <label for="firstradio" class="labels">
+                                        <input type="text" required placeholder="Subscribe" class="inputtext inputheight focused">
+                                    </label>
+                                    <input type="reset" name="UnSubscribe" class="resetbutton" title="Background Image">
+                                </div>
+                                <div class="choice">
+                                    <input type="radio" id="secondradio" name="Subscribe-UnSubscribe" class="choiceinput">
+                                    <label for="secondradio" class="labels">
+                                        <input type="text" required placeholder="Unsubscribe" class="inputtext inputheight focused">
+                                    </label>
+                                    <input type="reset" name="UnSubscribe" class="resetbutton">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox_wrap" class="incheck" name="Subscribe-UnSubscribe">
+                            <label for="checkbox_wrap" class="checkbox_wraper">
+                                <div class="wrapin">Wrap in paragraph tags?</div>
+                            </label>
+                        </div>
+                        <label class="button">
+                            <button type="submit" class="addbuttom">Add to form</button>
+                        </label>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

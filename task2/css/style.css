@@ -1,0 +1,294 @@
+body {
+    background: #0089b3;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inputheight {    
+    line-height: 1.7;    
+    -ms-line-height: 1.1;
+}
+
+/*Block with form*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-wrap {
+    padding: 20px 20px 10px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 0 68px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    font-size: 14px;
+
+}
+
+.formtitle {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.hlabel {
+    margin: 18px 0 4px;
+    font-size: 14px;
+}
+
+.mc4wp {
+    margin: 0 5px;
+    padding: 2px;
+    background: #ededed;
+    font-weight: 600;
+}
+
+/*Inputs and checkboxes*/
+
+
+.labels {
+    display: inline-block;
+    margin: 5px;
+}
+
+/*Radio button*/
+
+.choice {
+    display: block;
+    height: 34px;
+}
+
+.inputtext {
+    position: absolute;
+    left: 25px;
+    padding-left: 5px;
+    border: 1px solid #ededed;
+    outline: none;
+}
+
+.choiceinput {
+    position: absolute;
+    top: -9999px;
+    display: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid darkgray;
+    border-radius: 50%;
+    outline: none;
+}
+
+.labels {
+    margin-left: 5px;
+}
+
+.labels::before {
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 0px gray inset;
+}
+
+.labels::after {
+    content: "";
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background: #0184bf;
+}
+
+.labels {
+    position: relative;
+}
+
+.labels::before,
+.labels::after {
+    position: absolute;
+}
+
+.labels::before {
+    top: 5px;
+}
+
+.labels::before:focus {
+    box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.labels::after {
+    left: 5px;
+    top: 10px;
+}
+
+.choiceinput + .labels::after {
+    content: none;
+}
+
+.choiceinput:checked + .labels::after {
+    content: "";
+}
+
+/*Bottom Checkbox*/
+
+.checkbox_wraper {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+.wrapin {
+    margin-left: 25px;
+}
+
+
+.checkbox_wraper::before,
+.checkbox_wraper::after {
+    position: absolute;
+}
+
+.checkbox_wraper::before {
+    top: 0;
+}
+
+.checkbox_wraper::after {
+    left: 4px;
+    top: 3px;
+}
+
+.checkbox_wraper::before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 1px 0px gray inset;
+}
+
+.checkbox_wraper:focus {
+    box-shadow: 0 0 1px 0px gray inset;
+}
+
+.wrapin:focus {
+    transform: rotate(10deg);
+}
+
+.checkbox_wraper::after {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 9px;
+    border-left: 2px solid #0184bf;
+    border-bottom: 2px solid #0184bf;
+    transform: rotate(-45deg);
+}
+
+.incheck + label::after {
+    content: none;
+}
+
+.incheck:checked + label::after {
+    content: "";
+}
+
+.incheck {
+    position: absolute;
+    top: -9999px;
+    width: auto;
+    opacity: 0;
+}
+
+/*Button*/
+
+.addbuttom {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: #0184bf;
+    box-shadow: 0 2px 1px #005b84;
+}
+
+.addbuttom:hover {
+    background: #0494d5;
+    box-shadow: 0 2px 1px #005b84 inset;
+}
+
+.addbuttom:focus {
+    background: #0494d5;
+    box-shadow: 0 2px 1px #005b84 inset;
+}
+
+/*Reset Button*/
+
+.resetbutton {
+    position: relative;
+    left: 308px;
+    top: 10px;
+    width: 14px;
+    height: 14px;
+    border: 0;
+    background: url('../img/x.jpg') no-repeat top;
+    background-size: 10px;
+    font-size: 0;
+}
+
+.resetbutton:hover {
+    transform: rotate(10deg);
+}
+
+.resetbutton:focus {
+    transform: rotate(10deg);
+}
+
+.inputtext {
+    width: 280px;
+}
+
+.choicecontainer {
+    padding: 5px 0 11px;
+    width: 96%;
+    outline: none;
+    box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.choiceoutline {
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ededed;
+}
+
+.checkbox,
+.button {
+    margin-top: 20px;
+}
+
+.action {
+    padding-left: 5px;
+    width: 360px;
+    border: 1px solid #ededed;
+    outline: none;
+}
+
+.selectypebutton {
+    padding-left: 5px;
+    height: 20px;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+    outline: none;
+}
+
+.focused:focus {
+    box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.variety {
+    margin-top: 20px;
+}
+
+.selectypebutton:invalid:not(:focus) {
+    color: red;
+}
