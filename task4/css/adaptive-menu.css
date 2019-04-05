@@ -32,7 +32,7 @@
     border-bottom: 1px solid #847d78;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 1000px) {
 .adaptivemenu__nav_mobile {
         position: fixed;
         top: 0;
