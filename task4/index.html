@@ -7,37 +7,49 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/brands.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
     <div class="container">
         <div class="container__stimulus">
-            <div class="stimulus"></div>
+            <div class="stimulus" id="stimulus">
+                <div class="stimulus__logo">Stimulus</div>
+            </div>
         </div>
         <div class="container__started">
             <div class="started">
-             <div class="started__nav">
-              <ul class="nav">
-               <li class="nav__item"><a href="" class="nav__link">Home</a></li>    
-               <li class="nav__item"><a href="" class="nav__link">About me</a></li>
-               <li class="nav__item"><a href="" class="nav__link">Experiences</a></li>
-               <li class="nav__item"><a href="" class="nav__link">Testimonial</a></li>
-               <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
-               </ul>
-               </div>
-               <div class="started__title">Welcome to my Website</div> 
-             <div class="started__description">started__description   Hello, I am stimulus currently based in New Your city;
-                Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitue ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>                
-                <a href="#" class="started__button">Get started</a>                
+                <div class="started__nav">
+                    <div class="adaptivemenu">
+                        <input type="checkbox" id="hmt" class="adaptivemenu__menu-ticker">
+                        <label class="adaptivemenu__btn-menu" for="hmt">
+                            <span class="adaptivemenu__first"></span>
+                            <span class="adaptivemenu__second"></span>
+                            <span class="adaptivemenu__third"></span>
+                        </label>
+                        <ul class="nav">
+                            <li class="nav__item"><a href="#stimulus" class="nav__link nav__link_gold">Home</a></li>
+                            <li class="nav__item"><a href="#about-me" class="nav__link">About me</a></li>
+                            <li class="nav__item"><a href="#experience" class="nav__link">Experiences</a></li>
+                            <li class="nav__item"><a href="#testimonial" class="nav__link">Testimonial</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="started__pretitle">Welcome to my Website</div>
+                <div class="started__title">Hello, I am
+                    <div class="started__title_bold">Stimulus</div> currently based in New Your city.</div>
+                <div class="started__description">Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitue ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</div>
+                <a href="#" class="started__button">Get started</a>
             </div>
-            
         </div>
         <div class="container__donec">
-            <div class="donec">
+            <div class="donec donec_pad" id="about-me">
                 <h2 class="donec__title donec__title_dark">Donec auctor</h2>
                 <span class="donec__under-title">Sed vulputate vitae diam quis bibendum</span>
-                <p>Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
-                <p>Qusque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
+                <p class="donec__under-text">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convallis eros massa.</p>
+                <p class="donec__under-text">Qusque viverra iaculis aliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh mollis erat, quis porta odio odio at velit.</p>
             </div>
         </div>
         <div class="container__myphoto">
@@ -47,100 +59,152 @@
             <div class="skills">
                 <h2 class="skills__title skills__title_light">My Skills</h2>
                 <span class="skills__under-title">Photoshop . HTML CSS JS . Web design</span>
-                Fronted Design
-                Backend processing
-                HTML5 & CSS3
+                <div class="skills__name">Fronted Design</div>
+                <div class="skills__percent">90%</div>
+                <div class="skills__percentline">
+                    <div class="skills__percentline_white skills__percentline_fronted"></div>
+                </div>
+                <div class="skills__name">Backend processing</div>
+                <div class="skills__percent">70%</div>
+                <div class="skills__percentline">
+                    <div class="skills__percentline_white skills__percentline_backend"></div>
+                </div>
+                <div class="skills__name">HTML5 & CSS3</div>
+                <div class="skills__percent">80%</div>
+                <div class="skills__percentline">
+                    <div class="skills__percentline_white skills__percentline_html5"></div>
+                </div>
             </div>
         </div>
-        <div class="container__myskill">
+        <div class="container__myskill container__myskill_design">
             <div class="myskill myskill_design">
-              <div class="myskill__icon myskill__icon_design">ICON</div>
-               <div class="myskill__title">Interface Design</div>
-                <div class="myskill__description">Pasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</div>                     
+                <div class="myskill__icon myskill__icon_design">
+                    <i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="myskill__title">Interface Design</div>
+                <div class="myskill__description">Pasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</div>
             </div>
         </div>
-         <div class="container__myskill">
+        <div class="container__myskill container__myskill_strategy">
             <div class="myskill myskill_strategy">
-              <div class="myskill__icon myskill__icon_strategy">ICON</div>
-               <div class="myskill__title">Media Strategy</div>
+                <div class="myskill__icon myskill__icon_strategy">
+                    <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="myskill__title">Media Strategy</div>
                 <div class="myskill__description">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.
-</div>                     
+                </div>
             </div>
         </div>
-         <div class="container__myskill">
-           <div class="myskill myskill_app">
-              <div class="myskill__icon myskill__icon_app">ICON</div>
-               <div class="myskill__title">Interface Design</div>
-                <div class="myskill__description">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>                     
+        <div class="container__myskill container__myskill_app">
+            <div class="myskill myskill_app">
+                <div class="myskill__icon myskill__icon_app">
+                    <i class="fa fa-table fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="myskill__title">Interface Design</div>
+                <div class="myskill__description">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
             </div>
         </div>
-         <div class="container__myskill">
-            <div class="myskill myskill_codding">
-              <div class="myskill__icon myskill__icon_coding">ICON</div>
-               <div class="myskill__title myskill__title_dark">Interface Design</div>
-                <div class="myskill__description myskill__description_dark">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>                     
+        <div class="container__myskill container__myskill_coding">
+            <div class="myskill myskill_coding">
+                <div class="myskill__icon myskill__icon_coding">
+                    <i class="fab fa-html5 fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="myskill__title myskill__title_dark">Coding</div>
+                <div class="myskill__description myskill__description_dark">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</div>
             </div>
         </div>
         <div class="container__mobile-photo">
             <div class="mobile-photo"></div>
         </div>
-        <div class="container__experience">
-            <div class="experience">
+        <div class="container__experience" id="experience">
+
+            <div class="experience experience_padd">
                 <h2 class="experience__title experience__title_light">My Experience</h2>
                 <span class="experience__under-title">Previous companies and my tasks</span>
-                Graphic Designer 2014 Jul - 2015 Sep
-Lorem ipsum dolor sit amet, consectetur adipising elit.
-Web Designer 2015 Oct - 2017 Jan
-Lorem ipsum dolor sit amet, consectetur adipising elit.
+                <div class="experience__vacation"> <i class="fa fa-laptop fa-2x lcd" aria-hidden="true"></i>Graphic Designer </div>
+                <div class="experience__date">2014 Jul - 2015 Sep</div>
+                <div class="experience__description">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit. </div>
+                <div class="experience__vacation"> <i class="fa fa-laptop fa-2x lcd" aria-hidden="true"></i>Web Designer </div>
+                <div class="experience__date">2015 Oct - 2017 Jan</div>
+                <div class="experience__description">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit. </div>
             </div>
         </div>
         <div class="container__education">
-            <div class="education">
+            <div class="education education_pad">
                 <h2 class="education__title education__title_light">My Education</h2>
                 <span class="education__under-title">In cursus orci non ipsum gravida dignissim</span>
-                Master in Design 2012 Jan - 2014 May
-Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.
 
-Bachelor of Arts 2008 May - 2011 Dec
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculis mus.
+
+                <div class="education__vacation"> <i class="fa fa-laptop fa-2x lcd" aria-hidden="true"></i>Master in Design</div>
+                <div class="education__date">2012 Jan - 2014 May</div>
+                <div class="education__description">
+                    Etiam iaculis elit in mauris ullamcorper auctor. Proin a sapien id orci ullamcorper dignissim eu in neque.</div>
+
+
+                <div class="education__vacation"> <i class="fa fa-laptop fa-2x lcd" aria-hidden="true"></i> Bachelor of Arts </div>
+                <div class="education__date">2008 May - 2011 Dec</div>
+                <div class="education__description">
+                    Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculis mus.</div>
             </div>
         </div>
         <div class="container__notebook-photo">
             <div class="notebook-photo"></div>
         </div>
         <div class="container__star">
-            <div class="star">
+            <div class="star" id="testimonial">
+                <div class="star__bright"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
                 <h2 class="star__title star__title_light">Proin Lobortis eu diam et facilisis. Fusce nisi nibh, molestie in vestibulum quis, auctor et orci.</h2>
                 <span class="star__under-title">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felish eu, iaculis congue sem.</span>
             </div>
         </div>
         <div class="container__say-hello">
-            <div class="say-hello">
+            <div class="say-hello say-hello_pad">
                 <h2 class="say-hello__title say-hello__title_dark">Say Hello..</h2>
                 <span class="say-hello__under-title">Integer ut consectetur est. In cursus orci non ipsum gravida dignissim.</span>
+                <form action="" class="form form_position">
+                    <label for="firstradio" class="form__label">
+                        <input type="text" placeholder="Your name" class="form__input-text">
+                    </label>
+                    <label for="firstradio" class="form__labels">
+                        <input type="text" placeholder="Your email" class="form__input-text">
+                    </label>
+                    <label for="firstradio" class="form__labels">
+                        <textarea class="form__input-text" rows="7" cols="45" name="text" placeholder="Write your message..."></textarea>
+                    </label>
+                    <button type="submit" class="form__button">Send</button>
+                </form>
             </div>
         </div>
         <div class="container__work">
             <div class="work"></div>
         </div>
         <div class="container__contact">
-            <div class="contact">
+            <div class="contact contact_pad" id="contact">
                 <h3 class="contact__title">Visit my office</h3>
                 <span class="contact__under-title">456 New Street 220000, New York City, USA</span>
                 <h3 class="contact__title">Contact.</h3>
-                <ul class="contact__infolines">
-                    <li>01-0110-0220</li>
-                    <li><a href="" class="contact__infolines_link">hello@company.co</a></li>
-                    <li><a href="" class="contact__infolines_link">company.co</a></li>
+                <ul class="contact-info">
+                    <li class="contact-info__line"><i class="fa fa-phone contact-info_icon" aria-hidden="true"></i><a href="" class="contact-info__link contact-info__link-phone">01-0110-0220</a></li>
+                    <li class="contact-info__line"><i class="fa fa-envelope contact-info_icon" aria-hidden="true"></i><a href="" class="contact-info__link">hello@company.co</a></li>
+                    <li class="contact-info__line"><i class="fa fa-globe contact-info_icon" aria-hidden="true"></i><a href="" class="contact-info__link">company.co</a></li>
                 </ul>
             </div>
         </div>
         <div class="container__copyrights">
             <div class="copyrights">
                 <div class="copyright__credits">Copyright © 2016 Your Company | Design: <a href="" class="copyright__credits_link">templatemo</a></div>
-                <div class="copyright__socials">1</div>
+                <div class="copyright__socials">
+                    <a href="#" target="_blank" class="copyright__socials_link"><i class="fab fa-facebook-f  copyright__socials_icon" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="copyright__socials_link"> <i class="fab fa-twitter  copyright__socials_icon" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="copyright__socials_link"> <i class="fab fa-google-plus  copyright__socials_icon" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="copyright__socials_link"> <i class="fab fa-dribbble  copyright__socials_icon" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="copyright__socials_link"> <i class="fab fa-linkedin  copyright__socials_icon" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
