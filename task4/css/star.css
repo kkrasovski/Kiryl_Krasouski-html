@@ -1,0 +1,40 @@
+.star {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 480px;
+    margin: 0 auto;
+    background: #808080;  
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/quotes-bg.jpg) 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    text-align: center;   
+}
+
+.star__title {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+.star__title_light {
+    color: #ffffff;
+}
+
+.star__under-title {
+    margin-top: 30px;
+    color: #797470;
+}
+
+.star__bright {
+    margin: 20px auto;
+    color: #ffffff;
+    transition: color 0.5s linear;
+}
+
+.star__bright:hover {
+    color: #FFCC33;
+    transition: color 0.5s linear;  
+}

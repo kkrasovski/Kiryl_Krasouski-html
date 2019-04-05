@@ -1,0 +1,6 @@
+.myphoto {
+    height: 280px;
+    background: url(../img/about-img.jpg) 50% 0%;
+    background-repeat: no-repeat;
+    background-size: 1150px;
+}

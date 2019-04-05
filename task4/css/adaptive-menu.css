@@ -1,0 +1,96 @@
+.adaptivemenu__nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.adaptivemenu__menu-ticker {
+    display: none;
+}
+
+.adaptivemenu__item {
+    margin: 30px 15px;
+}
+
+.adaptivemenu__link {    
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #847d78;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.adaptivemenu__link_gold {
+    color: #e4ae58;
+}
+
+.adaptivemenu__link:hover {
+    color: #e4ae58;
+}
+
+.adaptivemenu__link:focus {
+    border-bottom: 1px solid #847d78;
+}
+
+@media (max-width: 680px) {
+.adaptivemenu__nav_mobile {
+        position: fixed;
+        top: 0;
+        left: -200px;
+        z-index: 2;
+        display: block;
+        margin: 0;
+        padding: 10px;
+        width: 200px;
+        box-sizing: border-box;
+        list-style: none;   
+        background-color: #eee;        
+        transition: left .2s;        
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+    }
+    .adaptivemenu__btn-menu {
+        position: fixed;
+        top: 5px;
+        left: 5px;
+        z-index: 3;
+        padding: 5px;
+        width: 25px;
+        color: #fff;
+        background-color: #666;
+        cursor: pointer;
+        transition: left .23s;       
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+    }
+    .adaptivemenu__btn-menu span {
+        position: relative;
+        display: block;
+        margin: 5px 0 0;
+        height: 5px;
+        background-color: #fff;        
+        transition: all .1s linear .23s;
+        
+    }
+    .adaptivemenu__btn-menu span.first {
+        margin-top: 0;
+    }
+    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu {
+        left: 160px;
+    }
+    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__nav {
+        left: 0;
+    }
+    
+    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__first {
+        -webkit-transform: rotate(45deg);
+        top: 10px;
+}
+    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__second {
+        opacity: 0;
+}
+    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__third {
+        -webkit-transform: rotate(-45deg);
+         top: -10px;
+}
+    }

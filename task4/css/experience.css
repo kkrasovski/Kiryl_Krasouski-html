@@ -1,0 +1,50 @@
+.experience  {
+    height: 360px;
+    box-sizing: border-box;    
+    background: #e9714c;
+}
+
+.experience_padd {
+    padding: 40px;
+}
+
+.experience__title {
+    margin: 0 0 15px;
+    font-size: 2.5em;    
+    font-weight: 300;
+}
+
+.experience__title_light {
+    color: #ffffff;
+}
+
+.experience__under-title {
+    display: block;
+    margin: 10px 0 45px;    
+    color: #ffffff;   
+}
+
+.experience__vacation {
+    position: relative;
+    display: inline-block;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 1.3em;   
+}
+
+.experience__date {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.experience__description {
+    display: block;
+    margin: 15px 0 40px 80px;
+    color: #ffffff;    
+}
+
+.experience__lcd {
+    position: absolute;
+    left: -60px;
+}

@@ -1,0 +1,140 @@
+
+@media (max-width: 768px) {
+    .container__stimulus {
+        width: 100%;
+        height: auto;
+    }
+    .container__started {
+        width: 100%;
+        height: auto;
+    }
+    .container__donec {
+        width: 100%;
+    }
+    .container__myphoto {
+        width: 50%;
+    }
+    .container__skills {
+        width: 50%;
+    }
+    .container__myskill {
+        width: 50%;
+    }
+    .container__myskill_design {
+        width: 50%;
+    }
+    .container__myskill_strategy {
+        width: 50%;
+    }
+    .container__myskill_app {
+        width: 50%;
+    }
+    .container__myskill_coding {
+        width: 50%;
+    }
+    .container__mobile-photo {
+        width: 100%;
+    }
+    .container__experience {
+        width: 100%;
+    }
+    .container__education {
+        width: 100%;
+    }
+    .container__notebook-photo {
+        width: 100%;
+    }
+    .container__star {
+        width: 100%;
+    }
+    .container__say-hello {
+        width: 100%;
+    }
+    .container__work {
+        width: 50%;
+    }
+    .container__contact {
+        width: 50%;
+    }
+    .container__copyrights {
+        width: 100%;
+    }
+}
+
+@media (max-width: 680px) {
+    
+    .container__stimulus {
+        width: 100%;
+        height: auto;
+        order: 1;
+    }
+    .container__started {
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+    .container__donec {
+        width: 100%;
+        order: 3;
+    }
+    .container__myphoto {
+        width: 100%;
+        order: 4;
+    }
+    .container__skills {
+        width: 100%;
+        order: 5;
+    }
+    .container__myskill_design {
+        width: 100%;
+        order: 7;
+    }
+    .container__myskill_strategy {
+        width: 100%;
+        order: 6;
+    }
+    .container__myskill_app {
+        width: 100%;
+        order: 8;
+    }
+    .container__myskill_coding {
+        width: 100%;
+        order: 9;
+    }
+    .container__mobile-photo {
+        width: 100%;
+        order: 10;
+    }
+    .container__experience {
+        width: 100%;
+        order: 11;
+    }
+    .container__education {
+        width: 100%;
+        order: 12;
+    }
+    .container__notebook-photo {
+        width: 100%;
+        order: 13;
+    }
+    .container__star {
+        width: 100%;
+        order: 14;
+    }
+    .container__say-hello {
+        width: 100%;
+        order: 15;
+    }
+    .container__work {
+        width: 100%;
+        order: 16;
+    }
+    .container__contact {
+        width: 100%;
+        order: 17;
+    }
+    .container__copyrights {
+        width: 100%;
+        order: 18;
+    }
+}

@@ -1,0 +1,29 @@
+.donec {
+    box-sizing: border-box;
+    background: #ffffff;
+    font-size: 14px;
+}
+
+.donec_pad {
+    padding: 40px 40px 0;
+}
+
+.donec__title {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.donec__title_dark {
+    color: #2e3933;
+}
+
+.donec__under-title {
+    display: block;
+    margin: 15px 0 20px 0;
+    color: #e4ae58;    
+}
+
+.donec__under-text {
+    margin: 20px 0;
+    line-height: 1.3;
+}

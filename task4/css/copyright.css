@@ -1,0 +1,40 @@
+.copyrights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    background: #ffffff;
+}
+
+.copyright__credits {
+    color: #807e7f;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.copyright__credits_link {
+    color: #e4ca5c;
+    text-decoration: none;
+}
+
+.copyright__credits_link:hover {
+    color: #99873b;
+}
+
+.copyright__socials {
+    margin-top: 45px;
+    height: 16px;
+}
+
+.copyright__socials_icon {
+    margin: 0 15px;
+}
+
+.copyright__socials_link {
+    color: #989795;
+}
+
+.copyright__socials_link:hover {
+    color: #000000;
+}

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container__stimulus {
+    width: 50%;
+    height: 100vh;
+}
+
+.container__started {
+    width: 50%;
+    height: 100vh;
+    background: #f0e2d7;
+}
+
+.container__donec {
+    width: 50%;
+}
+
+.container__myphoto {
+    width: 25%;
+}
+
+.container__skills {
+    width: 25%;
+    background: #e4ae58;
+}
+
+.container__myskill {
+    width: 25%;
+    font-size: 18px;
+}
+
+.container__mobile-photo {
+    width: 50%;
+}
+
+.container__experience {
+    width: 50%;
+}
+
+.container__education {
+    width: 50%;
+}
+
+.container__notebook-photo {
+    width: 50%;
+}
+
+.container__star {
+    width: 100%;
+}
+
+.container__say-hello {
+    width: 50%;
+    background: #e9714c;
+}
+
+.container__work {
+    width: 25%;
+}
+
+.container__contact {
+    width: 25%;
+    background: #161616;
+}
