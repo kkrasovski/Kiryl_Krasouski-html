@@ -44,12 +44,28 @@
     margin: 10px 0 30px 80px;
     color: #ffffff;    
 }
-@media (max-width: 640px) {
-.-kk-education
-    { height: auto;}
+@media (max-width: 835px) {
+.-kk-education {
+    height: auto;    
+}
+.-kk-education__under-title {
+    display: block;
+    margin: 10px 0 15px;
+    color: #ffffff;
+}
     
 .-kk-education__date {   
     margin-left: 80px;
     margin-top: 10px;
+}
+    
+.-kk-education__lcd {
+    position: absolute;
+    left: -80px;
+}   
+.-kk-education__description {
+    display: block;
+    margin: 15px 0 20px 80px;
+    color: #ffffff;
 }    
     }

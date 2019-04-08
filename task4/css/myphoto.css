@@ -1,5 +1,6 @@
 .-kk-myphoto {
-    height: 280px;
+    height: 100%;
+    max-height: 350px;    
     background: url(../img/about-img.jpg) 50% 0%;
     background-repeat: no-repeat;
     background-size: 1150px;
