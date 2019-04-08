@@ -1,34 +1,34 @@
-.skills {
+.-kk-skills {
     padding: 5px;
     box-sizing: border-box;
     font-size: 14px;
     }
 
-.skills__title {
+.-kk-skills__title {
     margin: 25px 30px 15px;
     font-size: 2.5em;    
     font-weight: 300;
 }
 
-.skills__title_light {
+.-kk-skills__title_light {
     color: #ffffff;
 }
 
-.skills__under-title {
+.-kk-skills__under-title {
     display: block;
     margin: 20px 30px 30px;
     color: #ffffff;    
     font-size: 1.1em;
 }
 
-.skills__name {
+.-kk-skills__name {
     display: inline-block;
     margin-left: 30px;
     font-weight: 700;
     font-size: 0.8em;
 }
 
-.skills__percent {
+.-kk-skills__percent {
     position: absolute;
     right: 40;
     display: inline-block;
@@ -37,27 +37,27 @@
     font-weight: 700;
 }
 
-.skills__percentline {
+.-kk-skills__percentline {
     display: block;
     margin: 10px 30px 15px;
     min-height: 1px;
     background-color: #ffffff;
 }
 
-.skills__percentline_white {
+.-kk-skills__percentline_white {
     display: block;
     min-height: 2px;
     background-color: #000000;
 }
 
-.skills__percentline_fronted {
+.-kk-skills__percentline_fronted {
     width: 90%;
 }
 
-.skills__percentline_backend {
+.-kk-skills__percentline_backend {
     width: 70%;
 }
 
-.skills__percentline_html5 {
+.-kk-skills__percentline_html5 {
     width: 80%;
 }

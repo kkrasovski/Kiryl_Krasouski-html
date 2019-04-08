@@ -1,13 +1,13 @@
-.contact {
+.-kk-contact {
     box-sizing: border-box;
     font-size: 14px;
 }
 
-.contact_pad {
+.-kk-contact_pad {
     padding: 40px 30px;
 }
 
-.contact__title {
+.-kk-contact__title {
     margin-bottom: 20px;
     color: #ffffff;
     font-size: 1.5em;
@@ -15,13 +15,13 @@
     
 }
 
-.contact__under-title {
+.-kk-contact__under-title {
     display: block;
     margin-bottom: 35px;
     color: #807e7f;    
 }
 
-.contact-info {
+.-kk-contact-info {
     margin-left: 30px;
     margin-top: -10px;
     line-height: 2;
@@ -29,32 +29,32 @@
     font-size: 1.2em;
 }
 
-.contact-info__line-phone {
+.-kk-contact-info__line-phone {
     color: #807e7f;
 }
 
-.contact-info__link {
+.-kk-contact-info__link {
     line-height: 2.2;
     color: #ac894f;
     text-decoration: none;
     
 }
 
-.contact-info_icon {
+.-kk-contact-info_icon {
     margin-right: 16px;
     line-height: 2.2;
     text-decoration: none;
     color: #807e7f;
 }
 
-.contact-info__link:hover {
+.-kk-contact-info__link:hover {
     color: #ac894f;
 }
 
-.contact-info__link-phone {
+.-kk-contact-info__link-phone {
     color: #807e7f;
 }
 
-.container__copyrights {
+.-kk-container__copyrights {
     width: 100%;
 }

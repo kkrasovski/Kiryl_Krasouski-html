@@ -1,139 +1,146 @@
 
 @media (max-width: 768px) {
-    .container__stimulus {
+    .-kk-container__stimulus {
         width: 100%;
         height: auto;
     }
-    .container__started {
+    .-kk-container__started {
         width: 100%;
         height: auto;
     }
-    .container__donec {
+    .-kk-container__donec {
         width: 100%;
     }
-    .container__myphoto {
+    .-kk-container__myphoto {
         width: 50%;
     }
-    .container__skills {
+    .-kk-container__skills {
         width: 50%;
     }
-    .container__myskill {
+    .-kk-container__myskill {
         width: 50%;
     }
-    .container__myskill_design {
+    .-kk-container__myskill_design {
+        
         width: 50%;
     }
-    .container__myskill_strategy {
+    .-kk-container__myskill_strategy {
+        background: #e9714c;
         width: 50%;
     }
-    .container__myskill_app {
+    .-kk-container__myskill_app {
         width: 50%;
     }
-    .container__myskill_coding {
+    .-kk-container__myskill_coding {
         width: 50%;
     }
-    .container__mobile-photo {
+    .-kk-container__mobile-photo {
         width: 100%;
     }
-    .container__experience {
+    .-kk-container__experience {
         width: 100%;
     }
-    .container__education {
+    .-kk-container__education {
         width: 100%;
     }
-    .container__notebook-photo {
+    .-kk-container__notebook-photo {
         width: 100%;
     }
-    .container__star {
+    .-kk-container__star {
         width: 100%;
     }
-    .container__say-hello {
+    .-kk-container__say-hello {
         width: 100%;
     }
-    .container__work {
+    .-kk-container__work {
         width: 50%;
     }
-    .container__contact {
+    .-kk-container__contact {
         width: 50%;
     }
-    .container__copyrights {
+    .-kk-container__copyrights {
         width: 100%;
     }
 }
 
 @media (max-width: 640px) {
     
-    .container__stimulus {
+    .-kk-container__stimulus {
         width: 100%;
         height: auto;
         order: 1;
     }
-    .container__started {
+    .-kk-stimulus__logo {
+    position: absolute;
+    left: 50%;  
+}
+    
+    .-kk-container__started {
         width: 100%;
         height: auto;
         order: 2;
     }
-    .container__donec {
+    .-kk-container__donec {
         width: 100%;
         order: 3;
     }
-    .container__myphoto {
+    .-kk-container__myphoto {
         width: 100%;
         order: 4;
     }
-    .container__skills {
+    .-kk-container__skills {
         width: 100%;
         order: 5;
     }
-    .container__myskill_design {
+    .-kk-container__myskill_design {
         width: 100%;
         order: 7;
     }
-    .container__myskill_strategy {
+    .-kk-container__myskill_strategy {
         width: 100%;
         order: 6;
     }
-    .container__myskill_app {
+    .-kk-container__myskill_app {
         width: 100%;
         order: 8;
     }
-    .container__myskill_coding {
+    .-kk-container__myskill_coding {
         width: 100%;
         order: 9;
     }
-    .container__mobile-photo {
+    .-kk-container__mobile-photo {
         width: 100%;
         order: 10;
     }
-    .container__experience {
+    .-kk-container__experience {
         width: 100%;
         order: 11;
     }
-    .container__education {
+    .-kk-container__education {
         width: 100%;
         order: 12;
     }
-    .container__notebook-photo {
+    .-kk-container__notebook-photo {
         width: 100%;
         order: 13;
     }
-    .container__star {
+    .-kk-container__star {
         width: 100%;
         order: 14;
     }
-    .container__say-hello {
+    .-kk-container__say-hello {
         width: 100%;
         order: 15;
     }
-    .container__work {
+    .-kk-container__work {
         width: 100%;
         order: 16;
     }
-    .container__contact {
+    .-kk-container__contact {
         width: 100%;
         order: 17;
     }
-    .container__copyrights {
+    .-kk-container__copyrights {
         width: 100%;
         order: 18;
     }

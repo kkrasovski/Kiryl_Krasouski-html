@@ -1,18 +1,18 @@
-.adaptivemenu__nav {
+.-kk-adaptivemenu__nav {
     display: flex;
     flex-direction: row;
     font-size: 10px;
 }
 
-.adaptivemenu__menu-ticker {
+.-kk-adaptivemenu__menu-ticker {
     display: none;
 }
 
-.adaptivemenu__item {
+.-kk-adaptivemenu__item {
     margin: 30px 15px;
 }
 
-.adaptivemenu__link {    
+.-kk-adaptivemenu__link {    
     text-transform: uppercase;
     text-decoration: none;
     color: #847d78;
@@ -20,20 +20,20 @@
     font-weight: 700;
 }
 
-.adaptivemenu__link_gold {
+.-kk-adaptivemenu__link_gold {
     color: #e4ae58;
 }
 
-.adaptivemenu__link:hover {
+.-kk-adaptivemenu__link:hover {
     color: #e4ae58;
 }
 
-.adaptivemenu__link:focus {
+.-kk-adaptivemenu__link:focus {
     border-bottom: 1px solid #847d78;
 }
 
 @media (max-width: 1000px) {
-.adaptivemenu__nav_mobile {
+    .-kk-adaptivemenu__nav_mobile {
         position: fixed;
         top: 0;
         left: -200px;
@@ -49,7 +49,7 @@
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
-    .adaptivemenu__btn-menu {
+    .-kk-adaptivemenu__btn-menu {
         position: fixed;
         top: 5px;
         left: 5px;
@@ -63,7 +63,7 @@
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
-    .adaptivemenu__btn-menu span {
+    .-kk-adaptivemenu__btn-menu span {
         position: relative;
         display: block;
         margin: 5px 0 0;
@@ -72,24 +72,24 @@
         transition: all .1s linear .23s;
         
     }
-    .adaptivemenu__btn-menu span.first {
+    .-kk-adaptivemenu__btn-menu span.first {
         margin-top: 0;
     }
-    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu {
+    .-kk-adaptivemenu__menu-ticker:checked ~ .-kk-adaptivemenu__btn-menu {
         left: 160px;
     }
-    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__nav {
+    .-kk-adaptivemenu__menu-ticker:checked ~ .-kk-adaptivemenu__nav {
         left: 0;
     }
     
-    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__first {
+    .-kk-adaptivemenu__menu-ticker:checked ~ .-kk-adaptivemenu__btn-menu span.-kk-adaptivemenu__first {
         -webkit-transform: rotate(45deg);
         top: 10px;
 }
-    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__second {
+    .-kk-adaptivemenu__menu-ticker:checked ~ .-kk-adaptivemenu__btn-menu span.-kk-adaptivemenu__second {
         opacity: 0;
 }
-    .adaptivemenu__menu-ticker:checked ~ .adaptivemenu__btn-menu span.adaptivemenu__third {
+    .-kk-adaptivemenu__menu-ticker:checked ~ .-kk-adaptivemenu__btn-menu span.-kk-adaptivemenu__third {
         -webkit-transform: rotate(-45deg);
          top: -10px;
 }

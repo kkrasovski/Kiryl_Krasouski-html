@@ -1,31 +1,31 @@
-.education {
+.-kk-education {
     height: 345px;
     box-sizing: border-box;    
     background: #e4ae58;
     font-weight: 14px;
 }
 
-.education_pad {
+.-kk-education_pad {
     padding: 40px;
 }
 
-.education__title {
+.-kk-education__title {
     margin: 0 0 15px;
     font-size: 2.5em;    
     font-weight: 300;
 }
 
-.education__title_light {
+.-kk-education__title_light {
     color: #ffffff;
 }
 
-.education__under-title {    
+.-kk-education__under-title {    
     display: block;
     margin: 10px 0 45px;
     color: #ffffff;    
 }
 
-.education__vacation {
+.-kk-education__vacation {
     position: relative;
     display: inline-block;
     margin-left: 80px;
@@ -33,22 +33,22 @@
     font-size: 1.3em;
 }
 
-.education__date {
+.-kk-education__date {
     display: inline-block;
     font-size: 0.8em;
     font-weight: 700;
 }
 
-.education__description {
+.-kk-education__description {
     display: block;
     margin: 10px 0 30px 80px;
     color: #ffffff;    
 }
 @media (max-width: 640px) {
-.education
+.-kk-education
     { height: auto;}
     
-.education__date {   
+.-kk-education__date {   
     margin-left: 80px;
     margin-top: 10px;
 }    

@@ -1,4 +1,4 @@
-.star {
+.-kk-star {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +11,7 @@
     text-align: center;   
 }
 
-.star__title {
+.-kk-star__title {
     width: 50%;
     margin: 0 auto;
     font-size: 2.5em;
@@ -19,33 +19,33 @@
     font-weight: 300;
 }
 
-.star__title_light {
+.-kk-star__title_light {
     color: #ffffff;
 }
 
-.star__under-title {
+.-kk-star__under-title {
     display: block;
     margin-top: 30px;
     color: #797470;
 }
 
-.star__bright {
+.-kk-star__bright {
     margin: 20px auto;
     color: #ffffff;
     transition: color 0.5s linear;
 }
 
-.star__bright:hover {
+.-kk-star__bright:hover {
     color: #FFCC33;
     transition: color 0.5s linear;  
 }
 
 @media (max-width: 640px) {
-    .star__title {
+    .-kk-star__title {
         width:90%;
         padding: 10px;
     }
-    .star__under-title {
+    .-kk-star__under-title {
         margin:10px;      
         text-align: center;
         font-size: 1em;

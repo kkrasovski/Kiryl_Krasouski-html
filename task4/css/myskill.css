@@ -1,73 +1,73 @@
-.myskill {
+.-kk-myskill {
     text-align: center;
     /* height: 340px;  */
 }
 
-.myskill_design {
+.-kk-myskill_design {
     padding: 40px 20px;
     background: #e4ae58; 
 }
 
-.myskill_strategy {
+.-kk-myskill_strategy {
     padding: 40px 20px;
     background: #e9714c;
 }
 
-.myskill_app {
+.-kk-myskill_app {
     padding: 40px 20px;
     background: #000000;
 }
 
-.myskill_coding {
+.-kk-myskill_coding {
     padding: 40px 20px;
     background: #ffffff;
 }
 
-.myskill__icon {
+.-kk-myskill__icon {
     margin: 20px auto;
     width: 48px;
     height: 48px;
     color: #ffffff;
 }
 
-.myskill__icon_design {
+.-kk-myskill__icon_design {
     width: 48px;
     height: 48px;
 }
 
-.myskill__icon_strategy {
+.-kk-myskill__icon_strategy {
     width: 48px;
     height: 48px;
 }
 
-.myskill__icon_app {
+.-kk-myskill__icon_app {
     width: 48px;
     height: 48px;
 }
 
-.myskill__icon_coding {
+.-kk-myskill__icon_coding {
     width: 48px;
     height: 48px;
     color: #000000;
 }
 
-.myskill__title {
+.-kk-myskill__title {
     margin: 20px;
     color: #ffffff;    
     font-size: 1.5em;
 }
 
-.myskill__description {
+.-kk-myskill__description {
     margin: 20px;
     color: #ffffff;
 }
 
-.myskill__title_dark {
+.-kk-myskill__title_dark {
     margin: 20px;
     color: #000000;
 }
 
-.myskill__description_dark {
+.-kk-myskill__description_dark {
     margin: 20px;    
     color: #000000;
 }

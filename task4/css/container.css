@@ -1,4 +1,4 @@
-.container {
+.-kk-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -7,65 +7,73 @@
     font-size: 14px;
 }
 
-.container__stimulus {
+.-kk-container__stimulus {
     width: 50%;
     height: 100vh;
 }
 
-.container__started {
+.-kk-container__started {
     width: 50%;
     height: 100vh;
     background: #f0e2d7;
 }
 
-.container__donec {
+.-kk-container__donec {
     width: 50%;
 }
 
-.container__myphoto {
+.-kk-container__myphoto {
     width: 25%;
 }
 
-.container__skills {
+.-kk-container__skills {
     width: 25%;
     background: #e4ae58;
 }
 
-.container__myskill {
+.-kk-container__myskill {
     width: 25%;
     font-size: 18px;
 }
 
-.container__mobile-photo {
+.-kk-container__myskill_design {
+     background:#e4ae58;
+    }
+
+.-kk-container__myskill_strategy {
+     background:#e9714c;
+    }
+
+.-kk-container__mobile-photo {
     width: 50%;
 }
 
-.container__experience {
+.-kk-container__experience {
     width: 50%;
 }
 
-.container__education {
+.-kk-container__education {
     width: 50%;
 }
 
-.container__notebook-photo {
+.-kk-container__notebook-photo {
     width: 50%;
 }
 
-.container__star {
+.-kk-container__star {
     width: 100%;
 }
 
-.container__say-hello {
+.-kk-container__say-hello {
     width: 50%;
     background: #e9714c;
 }
 
-.container__work {
+.-kk-container__work {
     width: 25%;
 }
 
-.container__contact {
+.-kk-container__contact {
     width: 25%;
     background: #161616;
 }

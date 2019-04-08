@@ -1,11 +1,11 @@
-.stimulus {
+.-kk-stimulus {
     height: 100%;
     background: url(../img/home-img.jpg);
     background-position: 65% 50%;
     background-size: cover;    
 }
 
-.stimulus__logo {
+.-kk-stimulus__logo {
     position: absolute;
     top: 20px;
     left: 10%;
