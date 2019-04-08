@@ -83,3 +83,7 @@ textarea.form__input-text:-ms-input-placeholder {
     background: #FFCC33;
     outline: 0;
 }
+
+.form__area {
+    resize: no;
+}

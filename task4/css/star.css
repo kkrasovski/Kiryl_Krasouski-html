@@ -24,6 +24,7 @@
 }
 
 .star__under-title {
+    display: block;
     margin-top: 30px;
     color: #797470;
 }
@@ -38,3 +39,16 @@
     color: #FFCC33;
     transition: color 0.5s linear;  
 }
+
+@media (max-width: 640px) {
+    .star__title {
+        width:90%;
+        padding: 10px;
+    }
+    .star__under-title {
+        margin:10px;      
+        text-align: center;
+        font-size: 1em;
+}
+    
+    }

@@ -48,3 +48,11 @@
     position: absolute;
     left: -60px;
 }
+
+@media (max-width: 640px) {
+
+.experience__date {   
+    margin-left: 80px;
+    margin-top: 10px;
+}    
+    }

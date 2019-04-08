@@ -44,3 +44,12 @@
     margin: 10px 0 30px 80px;
     color: #ffffff;    
 }
+@media (max-width: 640px) {
+.education
+    { height: auto;}
+    
+.education__date {   
+    margin-left: 80px;
+    margin-top: 10px;
+}    
+    }
