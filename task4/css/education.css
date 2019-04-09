@@ -33,11 +33,16 @@
     font-size: 1.3em;
 }
 
+.-kk-education__vacation-icon {
+        position: absolute;
+        left: -60px;
+}  
+
 .-kk-education__date {
     display: inline-block;
     font-size: 0.8em;
     font-weight: 700;
-}
+} 
 
 .-kk-education__description {
     display: block;
@@ -54,16 +59,20 @@
         margin: 10px 0 15px;
         color: #ffffff;
     }
+    .-kk-education__vacation-icon {
+        position: absolute;
+        left: -80px;
+    }   
+    
+    .-kk-education__vacation_text {
+        margin-right: 5px;
+    }
 
     .-kk-education__date {   
         margin-left: 80px;
         margin-top: 10px;
     }
-
-    .-kk-education__lcd {
-        position: absolute;
-        left: -80px;
-    }   
+    
     .-kk-education__description {
         display: block;
         margin: 15px 0 20px 80px;

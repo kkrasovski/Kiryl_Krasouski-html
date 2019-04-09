@@ -40,11 +40,11 @@
 
 .-kk-experience__description {
     display: block;
-    margin: 15px 0 40px 80px;
+    margin: 10px 0 40px 80px;
     color: #ffffff;    
 }
 
-.-kk-experience__lcd {
+.-kk-experience__vacation-icon {
     position: absolute;
     left: -60px;
 }
@@ -54,7 +54,7 @@
         height: auto;
     }
 
-    .-kk-experience__lcd {
+    .-kk-experience__vacation-icon {
         position: absolute;
         left: -80px;
     }   
@@ -62,7 +62,11 @@
     .-kk-experience__date {   
         margin-left: 80px;
         margin-top: 10px;
-    }     
+    }   
+    
+    .-kk-experience__vacation_text {
+        margin-right: 5px;
+    }
 
     .-kk-experience__under-title {
         display: block;
