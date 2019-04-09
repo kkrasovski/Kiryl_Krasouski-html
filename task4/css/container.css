@@ -1,0 +1,83 @@
+.-kk-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+   /* font-size: 14px; */
+}
+
+.-kk-container__stimulus {
+    width: 50%;
+    height: 100vh;
+}
+
+.-kk-container__started {
+    width: 50%;
+    height: 100vh;
+    background: #f0e2d7;
+}
+
+.-kk-container__donec {
+    width: 50%;
+}
+
+.-kk-container__my-photo {
+    width: 25%;
+}
+
+.-kk-container__skills {
+    width: 25%;
+    background: #e4ae58;
+}
+
+.-kk-container__my-skill {
+    width: 25%;
+    font-size: 18px;
+}
+
+.-kk-container__my-skill_design {
+     background:#e4ae58;
+}
+
+.-kk-container__my-skill_strategy {
+     background:#e9714c;
+}
+
+.-kk-container__mobile-photo {
+    width: 50%;
+}
+
+.-kk-container__experience {
+    width: 50%;
+}
+
+.-kk-container__education {
+    width: 50%;
+}
+
+.-kk-container__notebook-photo {
+    width: 50%;
+}
+
+.-kk-container__star {
+    width: 100%;
+}
+
+.-kk-container__say-hello {
+    width: 50%;
+    background: #e9714c;
+}
+
+.-kk-container__work {
+    width: 25%;
+}
+
+.-kk-container__contact {
+    width: 25%;
+    background: #161616;
+}
+
+.-kk-container__copyrights {
+    width: 100%;
+}

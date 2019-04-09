@@ -1,0 +1,89 @@
+.-kk-form {}
+
+.-kk-form_position {
+    margin-top: 30px;
+}
+
+.-kk-form__input-text {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 20px 10px 10px;       
+    border-bottom: 1px solid #e4ae58;    
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    outline: 0;
+    color: #ffffff;
+    background: #e9714c; 
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.-kk-form__input-text {
+  resize: none;
+}
+
+.-kk-form__input-text:focus {
+    border-bottom: 1px solid #FFCC33;
+    outline: 0;    
+}
+
+.-kk-form__input-text_area::placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_area::-moz-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_area:-moz-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_area:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_text::placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_text::-moz-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_text:-moz-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__input-text_text:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.-kk-form__button {
+    display: block;
+    margin: 40px 0;
+    padding: 1em 9em;
+    border: 0;
+    border-radius: 25px;
+    color: #161616;
+    background: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 700;  
+}
+
+.-kk-form__button:hover {
+    color: #ffffff;
+    background: #000000;    
+    transition-duration: .2s;
+}
+
+.-kk-form__button:focus {    
+    background: #FFCC33;
+    outline: 0;
+}

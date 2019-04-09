@@ -1,0 +1,29 @@
+.-kk-donec {
+    box-sizing: border-box;
+    background: #ffffff;
+    font-size: 1.1em;
+}
+
+.-kk-donec_pad {
+    padding: 40px 40px 0;
+}
+
+.-kk-donec__title {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.-kk-donec__title_dark {
+    color: #2e3933;
+}
+
+.-kk-donec__under-title {
+    display: block;
+    margin: 15px 0 20px 0;
+    color: #e4ae58;    
+}
+
+.-kk-donec__under-text {
+    margin: 20px 0;
+    line-height: 1.3;
+}

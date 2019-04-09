@@ -1,0 +1,81 @@
+.-kk-experience  {
+    height: 360px;
+    box-sizing: border-box;    
+    background: #e9714c;
+}
+
+.-kk-experience_padd {
+    padding: 40px;
+}
+
+.-kk-experience__title {
+    margin: 0 0 15px;
+    font-size: 2.5em;    
+    font-weight: 300;
+}
+
+.-kk-experience__title_light {
+    color: #ffffff;
+}
+
+.-kk-experience__under-title {
+    display: block;
+    margin: 10px 0 45px;    
+    color: #ffffff;   
+}
+
+.-kk-experience__vacation {
+    position: relative;
+    display: inline-block;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 1.3em;   
+}
+
+.-kk-experience__date {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.-kk-experience__description {
+    display: block;
+    margin: 10px 0 40px 80px;
+    color: #ffffff;    
+}
+
+.-kk-experience__vacation-icon {
+    position: absolute;
+    left: -60px;
+}
+
+@media (max-width: 835px) {    
+    .-kk-experience {
+        height: auto;
+    }
+
+    .-kk-experience__vacation-icon {
+        position: absolute;
+        left: -80px;
+    }   
+
+    .-kk-experience__date {   
+        margin-left: 80px;
+        margin-top: 10px;
+    }   
+    
+    .-kk-experience__vacation_text {
+        margin-right: 5px;
+    }
+
+    .-kk-experience__under-title {
+        display: block;
+        margin: 10px 0 15px;
+        color: #ffffff;
+    }
+    .-kk-experience__description {
+        display: block;
+        margin: 15px 0 20px 80px;
+        color: #ffffff;
+    }    
+}

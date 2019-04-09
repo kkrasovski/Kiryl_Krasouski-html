@@ -1,0 +1,18 @@
+.-kk-say-hello {
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.-kk-say-hello_pad {
+    padding: 40px 40px 0;
+}
+
+.-kk-say-hello__title {
+    margin: 0 0 15px;
+    font-size: 2.5em;    
+    font-weight: 300;
+}
+
+.-kk-say-hello__under-title {
+    font-size: 1.2em;
+}

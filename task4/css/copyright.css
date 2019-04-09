@@ -1,0 +1,40 @@
+.-kk-copyrights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+    background: #ffffff;
+}
+
+.-kk-copyright__credits {
+    color: #807e7f;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.-kk-copyright__credits_link {
+    color: #e4ca5c;
+    text-decoration: none;
+}
+
+.-kk-copyright__credits_link:hover {
+    color: #99873b;
+}
+
+.-kk-copyright__socials {
+    margin-top: 45px;
+    height: 16px;
+}
+
+.-kk-copyright__socials_icon {
+    margin: 0 15px;
+}
+
+.-kk-copyright__socials_link {
+    color: #989795;
+}
+
+.-kk-copyright__socials_link:hover {
+    color: #000000;
+}

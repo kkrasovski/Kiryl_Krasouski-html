@@ -1,0 +1,54 @@
+.-kk-star {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 480px;
+    margin: 0 auto;
+    background: #808080;  
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/quotes-bg.jpg) 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    text-align: center;   
+}
+
+.-kk-star__title {
+    margin: 0 auto;
+    width: 50%;    
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+.-kk-star__title_light {
+    color: #ffffff;
+}
+
+.-kk-star__under-title {
+    display: block;
+    margin-top: 30px;
+    color: #797470;
+}
+
+.-kk-star__bright {
+    margin: 20px auto;
+    color: #ffffff;
+    transition: color 0.5s linear;
+}
+
+.-kk-star__bright:hover {
+    color: #FFCC33;
+    transition: color 0.5s linear;  
+}
+
+@media (max-width: 640px) {
+    .-kk-star__title {
+        width:90%;
+        padding: 10px;
+    }
+    .-kk-star__under-title {
+        margin:10px;      
+        text-align: center;
+        font-size: 1em;
+    }
+    
+}

@@ -1,0 +1,18 @@
+.-kk-contact {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.-kk-contact_pad {
+    padding: 40px 30px;
+}
+.-kk-contact__title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 300;    
+}
+.-kk-contact__under-title {
+    display: block;
+    margin-bottom: 35px;
+    color: #807e7f;    
+}
