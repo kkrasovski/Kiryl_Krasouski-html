@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('main.css');
 @import url('awesome/brands.css');
 @import url('awesome/fonts.css');
 @import url('stimulus.css');
@@ -21,3 +22,4 @@
 @import url('work.css');
 @import url('container.css');
 @import url('adaptive-flex.css');
+@import url('contact-info.css');

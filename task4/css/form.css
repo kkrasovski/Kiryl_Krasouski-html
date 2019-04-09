@@ -20,40 +20,44 @@
     transform-origin: left;
 }
 
+.-kk-form__input-text {
+  resize: none;
+}
+
 .-kk-form__input-text:focus {
     border-bottom: 1px solid #FFCC33;
     outline: 0;    
 }
 
-textarea.-kk-form__input-text::placeholder {
+.-kk-form__input-text_area::placeholder {
     color: #ffffff;
 }
 
-textarea.-kk-form__input-text::-moz-placeholder {
+.-kk-form__input-text_area::-moz-placeholder {
     color: #ffffff;
 }
 
-textarea.-kk-form__input-text:-moz-placeholder {
+.-kk-form__input-text_area:-moz-placeholder {
     color: #ffffff;
 }
 
-textarea.-kk-form__input-text:-ms-input-placeholder {
+.-kk-form__input-text_area:-ms-input-placeholder {
     color: #ffffff;
 }
 
-.-kk-form__input-text[type="text"]::placeholder {
+.-kk-form__input-text_text::placeholder {
     color: #ffffff;
 }
 
-.-kk-form__input-text[type="text"]::-moz-placeholder {
+.-kk-form__input-text_text::-moz-placeholder {
     color: #ffffff;
 }
 
-.-kk-form__input-text[type="text"]:-moz-placeholder {
+.-kk-form__input-text_text:-moz-placeholder {
     color: #ffffff;
 }
 
-.-kk-form__input-text[type="text"]:-ms-input-placeholder {
+.-kk-form__input-text_text:-ms-input-placeholder {
     color: #ffffff;
 }
 
@@ -82,8 +86,4 @@ textarea.-kk-form__input-text:-ms-input-placeholder {
 .-kk-form__button:focus {    
     background: #FFCC33;
     outline: 0;
-}
-
-.-kk-form__area {
-   resize: none;
 }

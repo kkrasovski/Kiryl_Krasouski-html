@@ -1,73 +1,73 @@
-.-kk-myskill {
+.-kk-my-skill {
     text-align: center;
     /* height: 340px;  */
 }
 
-.-kk-myskill_design {
+.-kk-my-skill_design {
     padding: 40px 20px;
     background: #e4ae58; 
 }
 
-.-kk-myskill_strategy {
+.-kk-my-skill_strategy {
     padding: 40px 20px;
     background: #e9714c;
 }
 
-.-kk-myskill_app {
+.-kk-my-skill_app {
     padding: 40px 20px;
     background: #000000;
 }
 
-.-kk-myskill_coding {
+.-kk-my-skill_coding {
     padding: 40px 20px;
     background: #ffffff;
 }
 
-.-kk-myskill__icon {
+.-kk-my-skill__icon {
     margin: 20px auto;
     width: 48px;
     height: 48px;
     color: #ffffff;
 }
 
-.-kk-myskill__icon_design {
+.-kk-my-skill__icon_design {
     width: 48px;
     height: 48px;
 }
 
-.-kk-myskill__icon_strategy {
+.-kk-my-skill__icon_strategy {
     width: 48px;
     height: 48px;
 }
 
-.-kk-myskill__icon_app {
+.-kk-my-skill__icon_app {
     width: 48px;
     height: 48px;
 }
 
-.-kk-myskill__icon_coding {
+.-kk-my-skill__icon_coding {
     width: 48px;
     height: 48px;
     color: #000000;
 }
 
-.-kk-myskill__title {
+.-kk-my-skill__title {
     margin: 20px;
     color: #ffffff;    
     font-size: 1.5em;
 }
 
-.-kk-myskill__description {
+.-kk-my-skill__description {
     margin: 20px;
     color: #ffffff;
 }
 
-.-kk-myskill__title_dark {
+.-kk-my-skill__title_dark {
     margin: 20px;
     color: #000000;
 }
 
-.-kk-myskill__description_dark {
+.-kk-my-skill__description_dark {
     margin: 20px;    
     color: #000000;
 }

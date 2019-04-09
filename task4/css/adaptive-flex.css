@@ -1,145 +1,177 @@
-
 @media (max-width: 830px) {
     .-kk-container__stimulus {
         width: 100%;
         height: auto;
     }
+    
     .-kk-container__started {
         width: 100%;
         height: auto;
     }
+    
     .-kk-container__donec {
         width: 100%;
     }
-    .-kk-container__myphoto {
+    
+    .-kk-container__my-photo {
         width: 50%;
     }
+    
     .-kk-container__skills {
         width: 50%;
     }
-    .-kk-container__myskill {
+    
+    .-kk-container__my-skill {
         width: 50%;
     }
-    .-kk-container__myskill_design {
-        
+    
+    .-kk-container__my-skill_design {        
         width: 50%;
     }
-    .-kk-container__myskill_strategy {
+    
+    .-kk-container__my-skill_strategy {
         background: #e9714c;
         width: 50%;
     }
-    .-kk-container__myskill_app {
+    
+    .-kk-container__my-skill_app {
         width: 50%;
     }
-    .-kk-container__myskill_coding {
+    
+    .-kk-container__my-skill_coding {
         width: 50%;
     }
+    
     .-kk-container__mobile-photo {
         width: 100%;
     }
+    
     .-kk-container__experience {
         width: 100%;
     }
+    
     .-kk-container__education {
         width: 100%;
     }
+    
     .-kk-container__notebook-photo {
         width: 100%;
     }
+    
     .-kk-container__star {
         width: 100%;
     }
+    
     .-kk-container__say-hello {
         width: 100%;
     }
+    
     .-kk-container__work {
         width: 50%;
     }
+    
     .-kk-container__contact {
         width: 50%;
     }
+    
     .-kk-container__copyrights {
         width: 100%;
     }
 }
 
-@media (max-width: 640px) {
-    
+@media (max-width: 640px) {    
     .-kk-container__stimulus {
         width: 100%;
         height: auto;
         order: 1;
     }
+    
     .-kk-stimulus__logo {
     position: absolute;
     left: 50%;  
-}    
+    }   
+    
     .-kk-container__started {
         width: 100%;
         height: auto;
         order: 2;
     }
+    
     .-kk-container__donec {
         width: 100%;
         order: 3;
     }
-    .-kk-container__myphoto {
+    
+    .-kk-container__my-photo {
         width: 100%;
         order: 4;
     }
+    
     .-kk-container__skills {
         width: 100%;
         order: 5;
     }
-    .-kk-container__myskill_design {
+    
+    .-kk-container__my-skill_design {
         width: 100%;
         order: 7;
     }
-    .-kk-container__myskill_strategy {
+    
+    .-kk-container__my-skill_strategy {
         width: 100%;
         order: 6;
     }
-    .-kk-container__myskill_app {
+    
+    .-kk-container__my-skill_app {
         width: 100%;
         order: 8;
     }
-    .-kk-container__myskill_coding {
+    
+    .-kk-container__my-skill_coding {
         width: 100%;
         order: 9;
     }
+    
     .-kk-container__mobile-photo {
         width: 100%;
         order: 10;
     }
+    
     .-kk-container__experience {
         width: 100%;
         order: 11;
     }
+    
     .-kk-container__education {
         width: 100%;
         order: 12;
-    }    
+    }  
     
     .-kk-container__notebook-photo {
         width: 100%;
         order: 13;
     }
+    
     .-kk-container__star {
         width: 100%;
         order: 14;
     }
+    
     .-kk-container__say-hello {
         width: 100%;
         order: 15;
     }
+    
     .-kk-container__work {
         width: 100%;
         order: 16;
     }
+    
     .-kk-container__contact {
         width: 100%;
         order: 17;
     }
+    
     .-kk-container__copyrights {
         width: 100%;
         order: 18;

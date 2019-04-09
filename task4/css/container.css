@@ -22,7 +22,7 @@
     width: 50%;
 }
 
-.-kk-container__myphoto {
+.-kk-container__my-photo {
     width: 25%;
 }
 
@@ -31,18 +31,18 @@
     background: #e4ae58;
 }
 
-.-kk-container__myskill {
+.-kk-container__my-skill {
     width: 25%;
     font-size: 18px;
 }
 
-.-kk-container__myskill_design {
+.-kk-container__my-skill_design {
      background:#e4ae58;
-    }
+}
 
-.-kk-container__myskill_strategy {
+.-kk-container__my-skill_strategy {
      background:#e9714c;
-    }
+}
 
 .-kk-container__mobile-photo {
     width: 50%;
@@ -76,4 +76,8 @@
 .-kk-container__contact {
     width: 25%;
     background: #161616;
+}
+
+.-kk-container__copyrights {
+    width: 100%;
 }
